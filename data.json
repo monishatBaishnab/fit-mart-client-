@@ -1,0 +1,312 @@
+[
+    {
+        "name": "Treadmill Pro X",
+        "brand": "FitTech",
+        "price": 1299.99,
+        "stockQuantity": 15,
+        "description": "The Treadmill Pro X is designed for serious runners, offering advanced features and superior performance.",
+        "category": "cardio",
+        "images": "https://i.ibb.co/MB3fjS9/Treadmill-Pro-X.jpg",
+        "rating": 4.7,
+        "features": [
+            "High-performance motor",
+            "Adjustable incline",
+            "Bluetooth connectivity"
+        ],
+        "specifications": {
+            "dimensions": "78 x 35 x 56 inches",
+            "weight": "220 lbs",
+            "maximumUserWeight": "300 lbs",
+            "speedRange": "0.5 to 12 mph",
+            "power": "3.5 HP"
+        },
+        "manufacturerDetails": {
+            "name": "FitTech Inc.",
+            "contactInfo": {
+                "phone": "123-456-7890",
+                "email": "support@fittech.com",
+                "address": "123 Fitness St, Workout City, USA"
+            }
+        },
+        "warranty": "2 years",
+        "returnPolicy": "30-day return policy"
+    },
+    {
+        "name": "Dumbbell Set",
+        "brand": "StrongLift",
+        "price": 199.99,
+        "stockQuantity": 50,
+        "description": "Versatile dumbbell set with adjustable weights for a complete strength training workout.",
+        "category": "strength",
+        "images": "https://i.ibb.co/s9JtWb3/Weight-Bench.jpg",
+        "rating": 4.5,
+        "features": [
+            "Adjustable weights",
+            "Durable construction",
+            "Comfortable grip"
+        ],
+        "specifications": {
+            "dimensions": "15 x 5 x 5 inches",
+            "weight": "Varies (adjustable)",
+            "material": "Steel",
+            "color": "Black"
+        },
+        "manufacturerDetails": {
+            "name": "StrongLift Co.",
+            "contactInfo": {
+                "phone": "987-654-3210",
+                "email": "info@stronglift.com",
+                "address": "456 Strength Blvd, Muscle Town, USA"
+            }
+        },
+        "warranty": "1 year",
+        "returnPolicy": "30-day return policy"
+    },
+    {
+        "name": "Yoga Mat Deluxe",
+        "brand": "ZenFit",
+        "price": 49.99,
+        "stockQuantity": 100,
+        "description": "Premium yoga mat with extra cushioning and non-slip surface for a comfortable practice.",
+        "category": "accessories",
+        "images": "https://i.ibb.co/xG3tjrd/Rowing-Machine.jpg",
+        "rating": 4.8,
+        "features": [
+            "Extra cushioning",
+            "Non-slip surface",
+            "Eco-friendly materials"
+        ],
+        "specifications": {
+            "dimensions": "72 x 24 x 0.25 inches",
+            "weight": "2.5 lbs",
+            "material": "PVC-free",
+            "color": "Purple"
+        },
+        "manufacturerDetails": {
+            "name": "ZenFit Yoga",
+            "contactInfo": {
+                "phone": "555-123-4567",
+                "email": "support@zenfit.com",
+                "address": "789 Peaceful Way, Harmony City, USA"
+            }
+        },
+        "warranty": "1 year",
+        "returnPolicy": "30-day return policy"
+    },
+    {
+        "name": "Resistance Bands Set",
+        "brand": "FlexBand",
+        "price": 29.99,
+        "stockQuantity": 75,
+        "description": "Set of resistance bands with varying levels of resistance for versatile workouts.",
+        "category": "accessories",
+        "images": "https://i.ibb.co/mJSFM9S/Foam-Roller.jpg",
+        "rating": 4.6,
+        "features": [
+            "Multiple resistance levels",
+            "Durable and elastic",
+            "Portable and easy to use"
+        ],
+        "specifications": {
+            "dimensions": "Varies by band",
+            "weight": "1 lb (total)",
+            "material": "Latex",
+            "color": "Multi-color"
+        },
+        "manufacturerDetails": {
+            "name": "FlexBand LLC",
+            "contactInfo": {
+                "phone": "555-987-6543",
+                "email": "info@flexband.com",
+                "address": "321 Flex St, Stretchville, USA"
+            }
+        },
+        "warranty": "6 months",
+        "returnPolicy": "30-day return policy"
+    },
+    {
+        "name": "Spin Bike Elite",
+        "brand": "CycleMax",
+        "price": 999.99,
+        "stockQuantity": 20,
+        "description": "High-performance spin bike with adjustable resistance and built-in display for tracking your workout.",
+        "category": "cardio",
+        "images": "https://i.ibb.co/HY0DVJ9/Elliptical-Trainer.jpg",
+        "rating": 4.9,
+        "features": [
+            "Adjustable resistance",
+            "Built-in display",
+            "Ergonomic design"
+        ],
+        "specifications": {
+            "dimensions": "50 x 20 x 48 inches",
+            "weight": "120 lbs",
+            "maximumUserWeight": "275 lbs",
+            "flywheelWeight": "40 lbs"
+        },
+        "manufacturerDetails": {
+            "name": "CycleMax Industries",
+            "contactInfo": {
+                "phone": "888-123-4567",
+                "email": "support@cyclemax.com",
+                "address": "654 Cycle Ln, Pedal City, USA"
+            }
+        },
+        "warranty": "2 years",
+        "returnPolicy": "30-day return policy"
+    },
+    {
+        "name": "Kettlebell 20kg",
+        "brand": "PowerHouse",
+        "price": 79.99,
+        "stockQuantity": 40,
+        "description": "Durable kettlebell with a comfortable handle, perfect for a variety of strength and conditioning exercises.",
+        "category": "strength",
+        "images": "https://i.ibb.co/6tRqg94/Kettlebell-20kg.jpg",
+        "rating": 4.4,
+        "features": [
+            "Durable construction",
+            "Comfortable handle",
+            "Suitable for various exercises"
+        ],
+        "specifications": {
+            "weight": "20 kg",
+            "material": "Cast iron",
+            "color": "Black"
+        },
+        "manufacturerDetails": {
+            "name": "PowerHouse Fitness",
+            "contactInfo": {
+                "phone": "777-123-4567",
+                "email": "info@powerhouse.com",
+                "address": "123 Strength Ln, Muscle Town, USA"
+            }
+        },
+        "warranty": "1 year",
+        "returnPolicy": "30-day return policy"
+    },
+    {
+        "name": "Elliptical Trainer",
+        "brand": "EnduranceFit",
+        "price": 849.99,
+        "stockQuantity": 25,
+        "description": "Smooth and quiet elliptical trainer with adjustable resistance levels and a built-in heart rate monitor.",
+        "category": "cardio",
+        "images": "https://i.ibb.co/txzqF06/Spin-Bike-Elite.jpg",
+        "rating": 4.3,
+        "features": [
+            "Adjustable resistance",
+            "Heart rate monitor",
+            "Smooth operation"
+        ],
+        "specifications": {
+            "dimensions": "70 x 28 x 63 inches",
+            "weight": "150 lbs",
+            "maximumUserWeight": "300 lbs",
+            "strideLength": "20 inches"
+        },
+        "manufacturerDetails": {
+            "name": "EnduranceFit Inc.",
+            "contactInfo": {
+                "phone": "444-987-6543",
+                "email": "support@endurancefit.com",
+                "address": "321 Endurance Ave, Cardio City, USA"
+            }
+        },
+        "warranty": "3 years",
+        "returnPolicy": "30-day return policy"
+    },
+    {
+        "name": "Foam Roller",
+        "brand": "TheraRelief",
+        "price": 24.99,
+        "stockQuantity": 200,
+        "description": "High-density foam roller for deep tissue massage and muscle recovery.",
+        "category": "accessories",
+        "images": "https://i.ibb.co/fSF0vCz/Resistance-Bands-Set.jpg",
+        "rating": 4.7,
+        "features": [
+            "High-density foam",
+            "Textured surface",
+            "Lightweight and portable"
+        ],
+        "specifications": {
+            "dimensions": "18 x 6 inches",
+            "weight": "1.5 lbs",
+            "material": "EVA foam",
+            "color": "Blue"
+        },
+        "manufacturerDetails": {
+            "name": "TheraRelief LLC",
+            "contactInfo": {
+                "phone": "666-123-7890",
+                "email": "info@therarelief.com",
+                "address": "789 Relaxation Rd, Therapy Town, USA"
+            }
+        },
+        "warranty": "1 year",
+        "returnPolicy": "30-day return policy"
+    },
+    {
+        "name": "Rowing Machine",
+        "brand": "RowPro",
+        "price": 699.99,
+        "stockQuantity": 10,
+        "description": "Advanced rowing machine with adjustable resistance and digital display for a full-body workout.",
+        "category": "cardio",
+        "images": "https://i.ibb.co/4gVmT09/Yoga-Mat-Deluxe.jpg",
+        "rating": 4.6,
+        "features": [
+            "Adjustable resistance",
+            "Digital display",
+            "Compact design"
+        ],
+        "specifications": {
+            "dimensions": "80 x 24 x 26 inches",
+            "weight": "75 lbs",
+            "maximumUserWeight": "250 lbs",
+            "resistanceType": "Air"
+        },
+        "manufacturerDetails": {
+            "name": "RowPro Fitness",
+            "contactInfo": {
+                "phone": "333-987-1234",
+                "email": "support@rowpro.com",
+                "address": "654 Row Ln, Fit City, USA"
+            }
+        },
+        "warranty": "2 years",
+        "returnPolicy": "30-day return policy"
+    },
+    {
+        "name": "Weight Bench",
+        "brand": "IronMax",
+        "price": 149.99,
+        "stockQuantity": 35,
+        "description": "Sturdy weight bench with adjustable backrest and leg support for various strength training exercises.",
+        "category": "strength",
+        "images": "https://i.ibb.co/8cPmH7L/Dumbbell-Set.jpg",
+        "rating": 4.5,
+        "features": [
+            "Adjustable backrest",
+            "Leg support",
+            "Heavy-duty construction"
+        ],
+        "specifications": {
+            "dimensions": "48 x 20 x 45 inches",
+            "weight": "40 lbs",
+            "maximumUserWeight": "400 lbs",
+            "material": "Steel"
+        },
+        "manufacturerDetails": {
+            "name": "IronMax Equipment",
+            "contactInfo": {
+                "phone": "222-456-7890",
+                "email": "info@ironmax.com",
+                "address": "789 Iron St, Gym City, USA"
+            }
+        },
+        "warranty": "1 year",
+        "returnPolicy": "30-day return policy"
+    }
+]
