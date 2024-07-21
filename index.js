@@ -25,7 +25,7 @@ async function bootstrap() {
         try {
             const { search, categories, maxPrice, minPrice, sort, skip, limit } = req?.query;
             const queryObj = {};
-            
+
             if (search) {
                 queryObj.$text = { $search: search };
             }
@@ -40,7 +40,7 @@ async function bootstrap() {
             }
 
             const foundProducts = await Product.find(queryObj).sort({ price: Number(sort ?? 1) }).skip(Number(skip) ?? 0).limit(Number(limit ? limit : null));
-            
+
             res.status(OK).json({
                 success: true,
                 statusCode: OK,
@@ -68,9 +68,35 @@ async function bootstrap() {
     })
 
     app.post('/products', async (req, res, next) => {
-        console.log(req.body);
-        const result = await Product.insertMany(req.body);
-        res.send(result);
+        try {
+            const data = new Product(req.body);
+            const result = await data.save();
+            res.status(OK).json({
+                success: true,
+                statusCode: OK,
+                message: 'Product created successfully.',
+                data: 'result'
+            })
+        } catch (error) {
+            next(error);
+        }
+    })
+
+    app.put('/products/:id', async (req, res, next) => {
+        try {
+            const id = req.params?.id;
+
+            const result = await Product.findByIdAndUpdate(id, req.body, { new: true });
+
+            res.status(OK).json({
+                success: true,
+                statusCode: OK,
+                message: 'Product updated successfully.',
+                data: result
+            })
+        } catch (error) {
+            next(error);
+        }
     })
 
     app.use('*', (req, res) => {
