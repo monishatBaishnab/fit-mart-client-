@@ -1,17 +1,15 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const categoryEnum = ['cardio', 'strength', 'flexibility', 'balance', 'accessories'];
-
 const productSchema = new Schema({
   name: { type: String, required: true },
   brand: { type: String, required: true },
   price: { type: Number, required: true },
   stockQuantity: { type: Number, required: true },
   description: { type: String, required: true },
-  category: { type: String, enum: categoryEnum, required: true }, 
+  category: { type: String, required: true }, 
   images: { type: String, required: true },
-  rating: { type: Number, required: true },
+  rating: { type: Number, required: false, default: 0 },
   features: { type: [String], required: true },
   specifications: {
     dimensions: { type: String, required: false },
@@ -29,7 +27,7 @@ const productSchema = new Schema({
   },
   warranty: { type: String, required: true },
   returnPolicy: { type: String, required: true }
-});
+}, {timestamps: true});
 
 const Product = mongoose.model('Product', productSchema);
 

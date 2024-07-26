@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
 
-const purchasedProductSchema = new mongoose.Schema({
+const purchaseSchema = new mongoose.Schema({
   user: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
+    type: String,
     required: true,
   },
   products: [{
@@ -31,38 +30,14 @@ const purchasedProductSchema = new mongoose.Schema({
     required: true,
     enum: ['cash_on_delivery', 'strip'],
   },
-  paymentStatus: {
-    type: String,
-    required: true,
-    enum: ['Pending', 'Completed', 'Failed'],
-    default: 'Pending',
-  },
   orderStatus: {
     type: String,
     required: true,
     enum: ['Processing', 'Shipped', 'Delivered', 'Cancelled'],
     default: 'Processing',
   },
-  shippingAddress: {
-    name: {
-      type: String,
-      required: true,
-    },
-    email: {
-      type: String,
-      required: true,
-    },
-    phone: {
-      type: String,
-      required: true,
-    },
-    address: {
-      type: String,
-      required: true,
-    },
-  },
 }, {timestamps: true});
 
-const PurchasedProduct = mongoose.model('PurchasedProduct', purchasedProductSchema);
+const Purchase = mongoose.model('Purchase', purchaseSchema);
 
-module.exports = PurchasedProduct;
+module.exports = Purchase;
