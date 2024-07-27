@@ -1,9 +1,34 @@
 const mongoose = require('mongoose');
 
 const purchaseSchema = new mongoose.Schema({
-  user: {
-    type: String,
-    required: true,
+  userInfo: {
+    first_name: {
+      type: String,
+      required: true,
+      trim: true
+    },
+    last_name: {
+      type: String,
+      required: true,
+      trim: true
+    },
+    email: {
+      type: String,
+      required: true,
+      lowercase: true,
+      trim: true
+    },
+    mobile: {
+      type: String,
+      required: true,
+      unique: true,
+      trim: true
+    },
+    address: {
+      type: String,
+      required: true,
+      trim: true
+    }
   },
   products: [{
     product: {
@@ -36,7 +61,7 @@ const purchaseSchema = new mongoose.Schema({
     enum: ['Processing', 'Shipped', 'Delivered', 'Cancelled'],
     default: 'Processing',
   },
-}, {timestamps: true});
+}, { timestamps: true });
 
 const Purchase = mongoose.model('Purchase', purchaseSchema);
 

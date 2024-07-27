@@ -150,7 +150,7 @@ async function bootstrap() {
                 success: true,
                 statusCode: OK,
                 message: 'Your order has been approved.',
-                data: ''
+                data: result
             })
         } catch (error) {
             next(error);
